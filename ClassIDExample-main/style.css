@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: Tahoma, san-serif;
+}
+
+.little {
+  width: 100px;
+}
+
+#big{
+  width: 500px;
+}
+
+.part1{
+color: aqua;
+}
+
+.part2{
+color: blue;
+}
+.part3{
+  color: aquamarine;
+}
