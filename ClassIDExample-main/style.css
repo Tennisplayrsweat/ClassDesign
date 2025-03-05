@@ -1,26 +1,43 @@
+@font-face {
+  font-family: Pixel;
+  src: url('10Pixel-Regular.ttf');
+}
+
+.noto-sans-jp-custom {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   height: 100%;
   width: 100%;
 }
+
 body {
-  font-family: Tahoma, san-serif;
+  font-family: Tahoma, sans-serif;
 }
 
 .little {
   width: 100px;
 }
 
-#big{
+#big {
   width: 500px;
 }
 
-.part1{
-color: aqua;
+.part1 {
+  color: rgba(255, 0, 34, 0.808);
+  font-family: Pixel;
+  font-size: 18px;
 }
 
-.part2{
-color: blue;
+.part2 {
+  color: blue;
+  font-family: "Noto Sans JP";
 }
-.part3{
-  color: aquamarine;
+
+.part3 {
+  color: rgb(5, 95, 24);
 }
